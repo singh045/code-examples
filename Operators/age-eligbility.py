@@ -6,10 +6,8 @@
 num=int(input("Enter Age:"))
 if num >=18:
     print("Adult")
-    if num<18:
-        print("Minor")
 else:
-    print("Age Eligibility not matched")
+    print("Minor")
 
 
 

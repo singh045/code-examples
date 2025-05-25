@@ -3,10 +3,8 @@
 # If true, print "Pass", else "Fail".
 
 marks=20
-if marks >=50:
-    print("Pass")
-elif marks>=50 and marks<=100:
-    print("Pass")    
+if marks >=50 and marks<=100:
+    print("Pass")  
 else:
     print("Fail")
 
